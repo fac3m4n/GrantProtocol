@@ -19,7 +19,7 @@ const PoolDetailsPage = ({ params }: { params: { id: number } }) => {
   });
 
   const { isLoading: isMintLoading, isSuccess: isMintStarted, error: mintError } = useContractWrite(config);
-
+  // test
   useEffect(() => {
     console.log("isMintLoading:", isMintLoading);
     console.log("isMintStarted", isMintStarted);

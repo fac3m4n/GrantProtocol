@@ -25,7 +25,7 @@ const prefill: Omit<IStoreFormLinear, "api"> = {
   cancelability: true,
   cliff: undefined,
   duration: "86400", // 1 day
-  recipient: "0xCAFE000000000000000000000000000000000000",
+  recipient: "0x4b7866e717f27Fa1C38313D25F647aE0598571BD",
   token: SEPOLIA_DAI,
   transferability: true,
 };

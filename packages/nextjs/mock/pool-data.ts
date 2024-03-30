@@ -116,6 +116,39 @@ const pools = [
       },
     ],
   },
+  {
+    id: 4,
+    name: "Public Goods",
+    description: "Pool for public goods",
+    token: "DAI",
+    tvl: "800,000",
+    contributers: [
+      {
+        id: 1,
+        address: "0x1234...",
+        amount: "200,000",
+        weight: 1,
+      },
+      {
+        id: 2,
+        address: "0x5678...",
+        amount: "200,000",
+        weight: 1,
+      },
+      {
+        id: 3,
+        address: "0x1234...",
+        amount: "200,000",
+        weight: 1,
+      },
+      {
+        id: 4,
+        address: "0x5678...",
+        amount: "200,000",
+        weight: 1,
+      },
+    ],
+  },
 ];
 
 export default pools;

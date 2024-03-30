@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { useEffect } from "react";
 import Link from "next/link";
@@ -37,7 +39,7 @@ const PoolDetailsPage = ({ params }: { params: { id: number } }) => {
           <thead>
             <tr>
               <th></th>
-              <th>Address</th>
+              <th>TX</th>
               <th>Value</th>
               <th>Vote Weight</th>
             </tr>

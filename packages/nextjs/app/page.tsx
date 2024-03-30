@@ -6,7 +6,7 @@ import type { NextPage } from "next";
 const Home: NextPage = () => {
   return (
     <>
-      <div className="flex items-center flex-col flex-grow pt-10 gap-24">
+      <div className="flex items-center flex-col flex-grow pt-10 gap-10">
         <div className="px-5">
           <h1 className="text-center">
             <span className="block text-2xl md:text-4xl lg:text-7xl font-bold inter-var text-center">FundIt!</span>
